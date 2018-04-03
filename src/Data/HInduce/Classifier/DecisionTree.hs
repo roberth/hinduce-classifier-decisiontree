@@ -91,7 +91,7 @@ instance (Decider decider attr branch) => Decider (Ixd decider) [attr] branch wh
     decide (decider :!! i) = decide decider . (!! i)
 
 instance (Decider deca attra branch, Decider decb attrb branch) =>
-	  Decider (Either deca decb) (attra, attrb) branch where
+          Decider (Either deca decb) (attra, attrb) branch where
     decide (Left dec) = decide dec . fst
     decide (Right dec) = decide dec . snd
 
