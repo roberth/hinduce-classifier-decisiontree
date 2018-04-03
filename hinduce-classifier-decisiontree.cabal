@@ -10,7 +10,7 @@ Description:    A very simple decision tree construction algorithm; an implement
 Stability:      functional but lacking
 Maintainer:     Robert Hensing
 Build-Type:     Simple
-Cabal-Version:  >= 1.4
+Cabal-Version:  >= 1.6
 Category:       Data Mining
 
 Source-repository head
